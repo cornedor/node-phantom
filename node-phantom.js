@@ -209,7 +209,7 @@ module.exports={
 						_phantom: phantom
 					};
 				
-					callback(null,proxy);
+					callback(null,proxy,phantom);
 				});
 	
 				// An exit event listener that is registered AFTER the phantomjs process
